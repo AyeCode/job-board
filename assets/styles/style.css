@@ -1,0 +1,27 @@
+/* TODO: remove this once issue fixed 
+* Gtihub: https://github.com/AyeCode/blockstrap-page-builder-blocks/issues/61
+*/
+.sidebar-search .geodir-filter-cat {
+    width: 100%;
+}
+
+/* Job Archive Page */
+@media (min-width: 576px) {
+.row.row-cols-md-0 .card .card-header {
+    flex: 1 40%;
+}
+}
+
+/*  wp form elements */
+textarea.form-control {
+    border: 1px solid #d5d2dc;
+}
+
+.wp-block-search__input {
+    border: 1px solid #d5d2dc;
+    border-radius: 0.5rem;
+}
+
+.wp-block-search__button {
+    border-radius: 0.5rem;
+}
