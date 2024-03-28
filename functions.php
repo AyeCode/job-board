@@ -13,10 +13,9 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
- add_action( 'wp_enqueue_scripts', 'jobs_enqueue_styles' );
- function jobs_enqueue_styles() {
-	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/styles/style.css');
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+ add_action( 'wp_enqueue_scripts', 'job_board_enqueue_styles' );
+ function job_board_enqueue_styles() {
+	wp_enqueue_style( 'job-board-child-style', get_stylesheet_directory_uri() . '/assets/styles/style.css');
  }
 
 /**
@@ -25,9 +24,19 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
-function jobs_theme_setup()
+function job_board_theme_setup()
 {
-	load_child_theme_textdomain( 'jobs', get_stylesheet_directory() . '/languages' );
+	load_child_theme_textdomain( 'job-board', get_stylesheet_directory() . '/languages' );
 }
 
-add_action('after_setup_theme', 'jobs_theme_setup');
+add_action('after_setup_theme', 'job_board_theme_setup');
+
+
+// include admin classes
+add_action('after_setup_theme','jobs_load_admin');
+function jobs_load_admin(){
+	if ( is_admin() ) {
+		// Theme admin stuff
+		require_once 'includes/class-blockstrap-admin-child.php';
+	}
+}

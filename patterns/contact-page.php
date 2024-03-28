@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Jobs: Contact Page
- * Slug: jobs/contact-page
+ * Slug: job-board/contact-page
  * Block Types: core/post-content
  * Categories: blockstrap-page-content
  * Viewport Width: 1280

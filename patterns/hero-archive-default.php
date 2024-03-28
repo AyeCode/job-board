@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Jobs - Default Hero Archive
- * Slug: jobs/hero-archive-default
+ * Slug: job-board/hero-archive-default
  * Categories: blockstrap-hero-sections
  * Viewport Width: 1280
  */

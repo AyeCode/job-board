@@ -409,7 +409,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--gray)"
+			"text": "var(--wp--preset--color--gray-dark)"
 		},
 		"elements": {
 			"h1": {

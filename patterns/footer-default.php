@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Jobs - Default Footer
- * Slug: jobs/footer-default
+ * Slug: job-board/footer-default
  * Categories: blockstrap-site-footer
  * Viewport Width: 1280
  */
