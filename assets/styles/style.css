@@ -25,3 +25,10 @@ textarea.form-control {
 .wp-block-search__button {
     border-radius: 0.5rem;
 }
+
+/* TODO: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.
+* This CSS rule can be deprecated when issues is fixed.
+*/
+.gd-cptcat-cat-left.bg-white {
+    background-color: transparent !important;
+}
