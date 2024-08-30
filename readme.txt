@@ -1,9 +1,9 @@
 === Job Board ===
 Contributors: ayecode, stiofansisland
-Tested up to: 6.5
+Tested up to: 6.6
 Requires at least: 6.1
 Requires PHP: 7.2
-Version: 2.0.0
+Version: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,9 @@ Job Board is a modern and responsive WordPress theme designed for job boards and
 Job Board is a modern and responsive WordPress theme designed for job boards and recruitment websites. It is fully customizable and easy to use, Jobs utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern jobs site.
 
 == Changelog ==
+
+= 2.0.1 =
+* Update URL updated
 
 = 2.0.0 =
 * Initial release
